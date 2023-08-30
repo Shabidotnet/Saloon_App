@@ -7,7 +7,7 @@ const EditText = (props) => {
     <TextInput 
     placeholderTextColor={Colors.disableColor}
     placeholder={props.placeholder}
-    style={styles.mainContainer}>
+    style={[styles.mainContainer,props.style]}>
      
     </TextInput>
   )
